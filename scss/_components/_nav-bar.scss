@@ -70,10 +70,14 @@
 @media only screen and (max-width : 991px) {
   .header-nav {
     position: relative;
+    width: 100%;
 
     .toggler-icon {
-      -webkit-transform: translateX(10px);
-              transform: translateX(10px);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -142,11 +146,9 @@
     .nav-bar {
       display: none;
       position: absolute;
-      top: 155%;
-      left: 66%;
-      -webkit-transform: translateX(-50%);
-              transform: translateX(-50%);
-      width: 100vw;
+      top: 45px;
+      left: 0%;
+      width: 100%;
       z-index: 10;
       background: #121111;
 
@@ -195,13 +197,13 @@
   .header-nav {
     .toggler-icon {
       font-size: 26px;
+      left: 15%;
     }
 
     .nav-bar {
       left: 0;
-      top: 125%;
-      -webkit-transform: translateX(-30.5px);
-              transform: translateX(-30.5px);
+      top: 30px;
+      
       .nav-item {
         padding-top: 15px;
         padding-bottom: 15px;
