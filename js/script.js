@@ -20,4 +20,10 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 5000,
   });
+
+  $('.event:nth-child(2)').addClass('event_active');
+  $('.event').on('mousemove', function() {
+    $('.event').removeClass('event_active');
+    $(this).addClass('event_active');
+  });
 });
