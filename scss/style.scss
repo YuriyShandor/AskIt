@@ -45,8 +45,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
 }
 
+// ============= Header =============
 .header {
   width: 100%;
   background: #121111;
@@ -164,11 +166,13 @@ body {
   }
 }
 
+// ============= Banner =============
 #banner {
   width: 100%;
   padding-top: 350px;
   background: url(../img/banner.jpg) no-repeat center / cover;
   position: relative;
+  background-attachment: fixed;
 
   .banner-info {
     display: -ms-flex;
@@ -295,6 +299,7 @@ body {
   #banner {
     padding-top: 150px;
     padding-bottom: 100px;
+    background-attachment: scroll;
 
     .banner-info {
       margin-top: 0px;
@@ -441,6 +446,7 @@ body {
   }
 }
 
+// ============= Sections title =============
 .section-title {
   display: -ms-flex;
   display: -webkit-box;
@@ -486,6 +492,7 @@ body {
   }
 }
 
+// ============= Section How It Works =============
 #howItWorks {
   padding-bottom: 150px;
 }
@@ -780,6 +787,7 @@ body {
   }
 }
 
+// ============= Section Interaction =============
 #interaction {
   width: 100%;
   background: #037693;
@@ -1174,6 +1182,7 @@ body {
   }
 }
 
+// ============= Section Features =============
 .features-block {
   margin-bottom: 150px;
 
@@ -1502,6 +1511,7 @@ body {
   }
 }
 
+// ============= Section Partners =============
 #partners {
   width: 100%;
   background: url(../img/partners__bg.jpg) no-repeat center / cover;
@@ -1726,6 +1736,7 @@ body {
   }
 }
 
+// ============= Section Events =============
 #events {
   width: 100%;
   background: #e3e3e3;
@@ -1759,8 +1770,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding: 0 20px;
-    -webkit-transition: all, .3s;
-    transition: all, .3s;
+    -webkit-transition: all, .3s !important;
+    transition: all, .3s !important;
     margin: 0 10px;
     -webkit-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
             box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
@@ -2073,6 +2084,7 @@ body {
   }
 }
 
+// ============= Section About Us =============
 #about-us {
   width: 100%;
   padding: 75px 0;
@@ -2476,6 +2488,7 @@ body {
   }
 }
 
+// ============= Footer =============
 .footer {
   width: 100%;
   padding: 120px 0;
