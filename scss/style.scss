@@ -2,8 +2,31 @@
 
 $blue: #037693;
 
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+}
+
 @import "./_components/_nav-bar.scss";
-@import "./_components/_lato.scss";
 
 * {
   -webkit-box-sizing: border-box;
@@ -1537,8 +1560,8 @@ body {
       -webkit-transition: all, .5s;
       transition: all, .5s;
 
-      i {
-        font-size: 50px;
+      .svg-inline--fa {
+        font-size: 36px;
         color: #999;
         -webkit-transition: all, .5s;
         transition: all, .5s;
@@ -1547,7 +1570,7 @@ body {
       &:hover {
         background: $blue;
 
-        i {
+        .svg-inline--fa {
           color: #fff;
         }
       }
@@ -2627,7 +2650,7 @@ body {
         padding-bottom: 10px;
       }
 
-      i {
+      .svg-inline--fa {
         color: #fff;
         font-size: 22px;
         position: absolute;

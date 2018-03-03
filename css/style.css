@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+}
+
 .header-nav .toggler-icon {
   display: none;
 }
@@ -177,48 +201,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Black.ttf);
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Bold.ttf);
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Semibold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Medium.ttf);
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Regular.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Light.ttf);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../fonts/Lato/Lato-Thin.ttf);
-  font-weight: 100;
 }
 
 * {
@@ -1474,8 +1456,8 @@ body {
   transition: all, .5s;
 }
 
-#partners .slider-block .arrow i {
-  font-size: 50px;
+#partners .slider-block .arrow .svg-inline--fa {
+  font-size: 36px;
   color: #999;
   -webkit-transition: all, .5s;
   transition: all, .5s;
@@ -1485,7 +1467,7 @@ body {
   background: #037693;
 }
 
-#partners .slider-block .arrow:hover i {
+#partners .slider-block .arrow:hover .svg-inline--fa {
   color: #fff;
 }
 
@@ -2420,7 +2402,7 @@ body {
   padding-bottom: 10px;
 }
 
-.footer-social form i {
+.footer-social form .svg-inline--fa {
   color: #fff;
   font-size: 22px;
   position: absolute;
@@ -2431,7 +2413,7 @@ body {
   transition: all, .3s;
 }
 
-.footer-social form i:hover {
+.footer-social form .svg-inline--fa:hover {
   color: #037693;
 }
 
